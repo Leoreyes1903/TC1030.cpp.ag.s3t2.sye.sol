@@ -2,7 +2,7 @@
 #include "GameManual.hpp"
 #include "GameAutomatic.hpp"
 #include "Ctesconf.hpp"
-
+#include "Turno.hpp"
 int main()
 {
 //  GameManual gm("t1.tab", false, true);
@@ -25,6 +25,9 @@ int main()
     }
 
     g->start();
+
+    
+
     
     return 0;
 }

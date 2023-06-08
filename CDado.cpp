@@ -29,3 +29,11 @@ int CDado::getValorDado()
         return CDado::cara;
     }
 }
+int CDado::operator+(int n){
+    int resultado = 0;
+    for (int i = 0; i < n; i++) {
+        resultado += getValorDado();
+    }
+    return resultado;
+
+}

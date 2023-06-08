@@ -1,4 +1,5 @@
 #include "GameAutomatic.hpp"
+#include "Game.hpp"
 
 // Constructor por default --------------------
 GameAutomatic::GameAutomatic(std::string tf, bool swa, bool swio):Game(tf, swa, swio)

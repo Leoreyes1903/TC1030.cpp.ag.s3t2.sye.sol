@@ -13,4 +13,5 @@ class CDado{
         CDado();
         CDado(bool);
         int getValorDado();
+        int operator+(int n);
 };
