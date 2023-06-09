@@ -18,6 +18,10 @@ CDado::CDado(bool sr)
     }
 }
 
+void CDado::resetdado(){
+    cara=0;
+}
+
 // Devuelve el valor de la cara del dado : aleatorio / no aleatorio -----
 int CDado::getValorDado()
 {

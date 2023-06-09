@@ -9,7 +9,7 @@ class CDado{
 
     public:
         static int cara;
-
+        void resetdado();
         CDado();
         CDado(bool);
         int getValorDado();
